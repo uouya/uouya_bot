@@ -14,4 +14,4 @@ async def on_ready():
 
     server_on()
 
-    bot.run(os.getenv(TOKEN))
+    bot.run(os.getenv('TOKEN'))
